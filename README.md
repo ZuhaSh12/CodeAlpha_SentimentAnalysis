@@ -84,6 +84,28 @@ By combining **lexicon-based methods** and **supervised ML models**, this projec
 * Used **TextBlob** polarity & subjectivity scores
 * Mapped polarity → Negative, Neutral, Positive
 
+---
+Business insights: 
+
+📊 Sentiment Distribution (%): {'Negative': 52.3, 'Positive': 33.1, 'Neutral': 14.6}
+
+📊 Emotion Distribution (%): {'anger': 40.2, 'joy': 25.4, 'sadness': 15.7, 'trust': 9.8, 'anticipation': 8.9}
+
+❌ Top Negative Review Words: [('late', 120), ('delivery', 115), ('refund', 90), ('customer', 88), ('service', 80)]
+
+✅ Top Positive Review Words: [('fast', 130), ('prime', 115), ('love', 100), ('easy', 95), ('trust', 90)]
+
+
+📌 Recommended Actions:
+
+- High anger detected: Improve customer service response and shipping reliability.
+- Joy is common in positive reviews: Highlight happy customers in marketing campaigns.
+- Sadness detected: Consider follow-up support for unsatisfied customers.
+- Trust appears in reviews: Strengthen brand image by showing reliability guarantees.
+
+  ---
+
+
 #### Machine Learning Models:
 
 * Vectorization (TF-IDF, CountVectorizer)
